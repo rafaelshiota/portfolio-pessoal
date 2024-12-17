@@ -1,0 +1,133 @@
+/*
+******LIMPAR FORMATAÇÃO******
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*
+******FORMATAÇÕES GENÉRICAS******
+*/
+body{
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #c4c4c4;
+    padding-top: 70px;
+}
+
+
+h1{
+    color: #252525;
+    font-size: 40px;
+}
+
+h2{
+    text-align: center;
+    color: #0066cc;
+}
+
+h3{
+    text-align: center;
+    color: #565656;
+    padding: 5px;
+
+}
+/*
+******HEADER******
+*/
+#header{
+    background-color: #5ebbb3;
+    padding: 5px;
+    position:fixed;
+    top: 0;
+    width: 100%;
+}
+
+#Logo{
+    text-align:left;
+
+}
+
+#menu{
+    padding: 5px;
+    text-align: right;
+    
+}
+
+#header a:link, #header a:visited{
+    color:#ffffff;
+    padding: 8px 12px;
+}
+
+#header a:hover{
+    color: #0066cc;
+    background: #ffffff;
+    text-decoration: none;
+}
+
+.white{
+    color: #82ccf7;
+}
+
+/*
+******CONTEUDO******
+*/
+#content{
+    width: 100%;
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+    margin-top: 80px;
+}
+#posts{
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+/* Seções */
+#sobremim, #formacao, #portfolio, #contato {
+    margin-bottom: 80px;
+    margin-top: 80px;
+    text-align: center;
+}
+.post{
+    padding:160px;
+    margin-bottom: 20px;
+    background: #ffffff;
+    text-align: justify;
+    border-radius: 12px;
+}
+
+.img-post{
+    width: 300px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+/*
+******FORMATAÇÃO LINK******
+*/
+a{
+    text-decoration: none;
+}
+a:link, a:visited{
+    color: #0066cc;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/*
+******RODAPE******
+*/
+#footer{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #ffffff;
+    color:#0066cc
+}
+
